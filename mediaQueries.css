@@ -1,0 +1,40 @@
+@media screen and (max-width:991px) {
+    .nav-search{
+        width: 40vw;
+    }
+
+    .box{
+        width: 30%;
+    }
+
+    #b7{
+        width: 100%;
+    }
+    #b7 .box-img{
+        background-size: fill;
+        background-repeat: no-repeat;
+    }
+
+    #b8{
+        width: 100%;
+    }
+    #b8 .box-img{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .box{
+        width: 100%;
+    }
+
+    .foot-panel2{
+        height: 1000px;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+}

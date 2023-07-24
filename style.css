@@ -53,6 +53,7 @@
     width: 620px;
     height: 40px;
     border-radius: 4px;
+    /* overflow: hidden; */
 }
 .search-select{
     background-color: #f3f3f3;
@@ -144,6 +145,7 @@
 /* Level 3 */
 /* Hero-section */
 .hero-sec{
+    overflow: hidden;
     background-image: url("./Images/hero_image.jpg");
     background-size: cover;
     height: 250px;
@@ -195,10 +197,10 @@
 .b6 .box-img{
     background-image: url("./Images/box6_image.jpg");
 }
-.b7 .box-img{
+#b7 .box-img{
     background-image: url("./Images/box7_image.jpg");
 }
-.b8 .box-img{
+#b8 .box-img{
     background-image: url("./Images/box8_image.jpg");
 }
 .box-img{
